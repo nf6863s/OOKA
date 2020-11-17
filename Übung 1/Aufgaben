@@ -1,0 +1,10 @@
+FA0: Um die delegation zwischen internem und externem Verhalten sicherzustellen
+sollte das Proxy-Pattern zur Realisierung des Ports eingesetzt werden.
+
+FA1: Das Interface Hotelsucher muss um die Methode closeSession() erweitert werden,
+da ein schließen der Session unbedingt nötig ist.
+Der Ablauf der Merhodenaufrufe ist dediziert, da stets zuerst die Session geöffnet werden muss,
+dannach kann erst eine oder mehrere Abfragen getätigt werden und zuletzt muss die Session wie erwähnt geschlossen werden.
+
+FA2: Auch bei dem Interface Caching fehlen Methoden. Hierbei handelt es sich um eine Methode zur Überprüfung,
+ob ein gewisser Schlüssel im Cache vorhanden ist, und eine Methode um Daten aus dem Cache abzurufen.

@@ -1,0 +1,6 @@
+[INFO 13/11/2020 11:34:35]: Ein Benutzer hat die Session gestartet
+[INFO 13/11/2020 11:34:35]: Zugriff auf Buchungssystem über Methode getHotelByName. Suchwort: test
+[INFO 13/11/2020 11:34:35]: Ein Benutzer hat die Session beendet.
+[INFO 17/11/2020 11:37:59]: Ein Benutzer hat die Session gestartet
+[INFO 17/11/2020 11:37:59]: Zugriff auf Buchungssystem über Methode getHotelByName. Suchwort: test
+[INFO 17/11/2020 11:37:59]: Ein Benutzer hat die Session beendet.
